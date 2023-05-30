@@ -16,7 +16,7 @@ node{
 stage('email'){
 emailext body: '''Build is over
 
-Acada learning
+Acada
 437212483''', recipientProviders: [developers(), requestor()], subject: 'Build', to: 'tdapp@gmail.com'
 }
     */
